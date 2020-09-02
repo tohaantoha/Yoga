@@ -1,0 +1,554 @@
+/* адаптация стала проще, просто прячем картинку когда она уже не влазит*/
+@media (max-width: 1000px){
+  .yoga-gils{
+    display: none;
+  }
+}
+
+
+/* это уже не нужно:
+@media (max-width: 1200px){
+  .form__inner{
+    background-image: none;
+  }
+}
+*/
+
+
+@media (max-width: 1156px) {
+
+  .slider__item-content {
+    max-width: 500px;
+  }
+
+  .slider__title {
+    font-size: 30px;
+    line-height: 34px;
+  }
+
+  .slider__title span {
+    font-size: 38px;
+  }
+
+  .slider__text span {
+    font-size: 23px;
+  }
+
+  /* .services__items {
+    display: block;
+  } */
+
+  .services__item {
+    max-width: 49%;
+    /* min-height: 330px;
+    margin: 30px auto; */
+  }
+
+  .services__item-img {
+    max-width: 340px;
+    width: 100%;
+  }
+
+  .form__inner {
+    background-image: none;
+  }
+
+  .news__inner {
+    display: block;
+  }
+
+  .news__slider {
+    max-width: 100%;
+    margin-bottom: 90px;
+  }
+
+  .news__blog {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .news__blog:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .news__images {
+    float: left;
+    margin-right: 50px;
+  }
+
+  .news {
+    padding-bottom: 60px;
+  }
+
+  .footer__info {
+    max-width: 465px;
+    margin-bottom: 25px;
+  }
+
+  .news__top {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .slider__item-content {
+    max-width: 410px;
+  }
+
+  .slider__title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+
+  .slider__title span {
+    font-size: 33px;
+  }
+
+  .slider__text span {
+    font-size: 20px;
+  }
+
+  .slider__text {
+    line-height: 22px;
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+
+  .footer__inner {
+    display: block;
+  }
+
+  .footer__map {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .slider__item-content {
+    max-width: 347px;
+  }
+
+  .slider__title {
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+  }
+
+  .slider__title span {
+    font-size: 27px;
+  }
+
+  .slider__text {
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  .form__box-left {
+    max-width: 458px;
+  }
+}
+
+@media (max-width: 900px) {
+  .slider .slick-btn {
+    display: none !important;
+  }
+
+  .services__top,
+  .news__top {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .services__title-box,
+  .form__title-box,
+  .news__title-box {
+    padding-left: 0;
+    text-align: center;
+    margin: 0 auto 30px;
+  }
+
+  .services__title-box:before,
+  .form__title-box:before,
+  .news__title-box:before {
+    display: none;
+  }
+
+  .services__btn,
+  .news__btn {
+    text-align: center;
+  }
+
+  .form__box-inner {
+    display: block;
+  }
+
+  .form__box-left {
+    max-width: 100%;
+    padding-right: 0px;
+  }
+
+  .form__box-right {
+    max-width: 100%;
+    padding-right: 0px;
+  }
+
+  .form__box-inner .jq-selectbox__select {
+    margin-bottom: 10px;
+  }
+
+  .form {
+    padding-bottom: 25px;
+  }
+
+  .advantages__inner {
+    display: block;
+  }
+
+  .advantages-item {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .slider__item-content {
+    margin: 0px auto 0 80px;
+    padding-top: 120px;
+  }
+.services__item-img {
+  max-width: 620px;
+  width: 100%;
+  padding: 0 15px;
+}
+}
+
+@media (max-width: 800px) {
+  .slider__img {
+    background-image: none;
+  }
+
+  slider__item-content {
+    margin: 0 auto;
+  }
+
+  .slider__item-content {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  
+}
+
+
+@media (max-width: 700px) {
+
+  /* .header__btn{
+    float: none;
+  } */
+  .header__contacts {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* .header__btn:before{
+    display: none;
+  } */
+  .footer__info .header__btn:before {
+    display: block;
+  }
+
+  .header__btn-menu {
+    display: block;
+  }
+
+  .menu ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    z-index: 50;
+  }
+
+  .menu li {
+    display: block;
+    text-align: center;
+  }
+
+  .menu a {
+    display: block;
+    background-color: #fdd4e2;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  .menu li+li {
+    padding-left: 0;
+  }
+
+  .news__top {
+    margin-bottom: 0;
+  }
+
+  .news__title {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .news__text {
+    font-size: 13px;
+  }
+
+  .news__btn a {
+    line-height: 20px;
+    padding: 5px 25px;
+  }
+
+  .news__slider-title {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+
+  .news__slider-text p {
+    margin: 8px 0;
+    font-size: 12px;
+  }
+  .about__inner { 
+    max-width: 453px;
+    padding-left: 0px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+/* @media (max-width: 667px){
+  .form__box-left {
+    max-width: 458px;
+  }
+} */
+
+@media (max-width: 600px) {
+  .services__item {
+    max-width: 100%;
+    min-height: 375px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .news__slider {
+    padding: 10px 0px 25px 0px;
+  }
+
+  .news__slider:before {
+    left: 25px;
+  }
+
+  .news__slider-inner .slick-next {
+    right: -20px;
+  }
+
+  .news__slider-inner .slick-prev {
+    right: 35px;
+  }
+
+  .news__images {
+    float: none;
+  }
+
+  .news__slider-inner .slick-btn {
+    bottom: -90px;
+  }
+
+  .news__slider-title {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+
+  .news__slider-text p {
+    margin: 5px 0;
+    font-size: 11px;
+  }
+
+  .news__top {
+    margin-bottom: 0px;
+  }
+
+  .news__slider-inner .slick-btn {
+    bottom: -55px;
+  }
+
+  .news__slider-item {
+    padding: 0px 5px;
+  }
+  .about__title {
+    padding: 10px 0px 18px;
+    font-size: 26px;
+    line-height: 28px;  
+  }
+  .about__inner {
+    max-width: 400px;
+  }
+  .about__text {
+    margin-bottom: 20px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 414px) {
+  .slider__title {
+    font-size: 24px;
+  }
+
+  .slider__text {
+    font-size: 16px;
+  }
+
+  .slider__title {
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+  .slider__title span {
+    font-size: 23px;
+  }
+
+  .slider__text {
+    line-height: 16px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  .slider__text span {
+    font-size: 15px;
+  }
+  .about__inner {
+    max-width: 350px;
+  }
+  .about__title {
+    padding: 10px 0px 15px;
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .about__text {
+    line-height: 18px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__btn:before {
+    display: block;
+  }
+
+  .advantages-item {
+    padding: 0;
+  }
+
+  .header__phone {
+    padding-right: 20px;
+  }
+
+  .header__btn {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .header__contacts__address {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header__email {
+    padding-right: 30px;
+  }
+
+  .slider__title {
+    font-size: 15px;
+    line-height: 17px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+
+  .slider__title span {
+    font-size: 20px;
+  }
+
+  .slider__text {
+    line-height: 16px;
+    font-size: 11px;
+    margin-bottom: 15px;
+  }
+
+  .slider__text span {
+    font-size: 13px;
+  }
+
+  .default-btn {
+    font-size: 12px;
+    line-height: 17px;
+
+  }
+  .about__title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+/* ================================*/
+@media (max-width: 1156px) {
+
+  .news .news__slider-box,
+  .slick-initialized .slick-slide {
+    flex-direction: column;
+  }
+
+  .news__slider-item {
+    max-width: 100%;
+    /* margin-bottom: 30px;  */
+  }
+
+  .news__images {
+    float: none;
+    margin-right: 0px;
+  }
+
+  .news .slick-slide img {
+    width: 100%;
+  }
+
+  .news__blog {
+    margin-bottom: 0px;
+  }
+
+  .news__slider-inner .slick-next {
+    right: calc(50% - 45px);
+  }
+
+  .news__slider-inner .slick-prev {
+    right: auto;
+    left: calc(50% - 45px);
+  }
+}
+
+
+
+@media (min-width: 700px) {
+  .menu ul {
+    display: block !important;
+  }
+}
